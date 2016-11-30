@@ -179,7 +179,7 @@ def instructionmenu():
   print('Instructions:')
   print('To make a move, type four space-separated characters into the '
     'command line.\nStones are represented by lower case letters a-f. '
-    '\nThe game board output shows all past guesses and their results . '
+    '\nThe game board output shows all past guesses and their results. '
     'The first number indicates each letter from the guess which was correct '
     'in both letter and position and the second indicates the existence of a '
     'correct letter placed in the wrong position')

@@ -212,12 +212,9 @@ def instructionmenu()
   puts "  !           Have a move suggested"
   puts "  [return]    Quit"
   puts "Instructions:"
-  puts " To make a move, type four space-separated characters into the 
-    command line.\nStones are represented by lower case letters a-f. 
-    \nThe game board output shows all past guesses and their results . 
-    The first number indicates each letter from the guess which was correct 
-    in both letter and position and the second indicates the existence of a 
-    correct letter placed in the wrong position."
+  puts "To make a move, type four space-separated characters into the command line."
+  puts "Stones are represented by lower case letters a-f."
+  puts "The game board output shows all past guesses and their results. The first number indicates each letter from the guess which was correct in both letter and position and the second indicates the existence of a correct letter placed in the wrong position."
   puts "Example move: b a f d would output 2 0 for the example code b e c d"
 end
 
